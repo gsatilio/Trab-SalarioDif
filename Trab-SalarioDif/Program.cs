@@ -24,7 +24,7 @@ while (sair != "S" && sair != "s")
         salariomaior = double.Parse(Console.ReadLine());
     }
 
-    calculo = ((salariomaior / salario) * 100);
+    calculo = ((salariomaior / salario) * 100) - 100;
 
     Console.WriteLine($"O aumento do salário foi de {calculo}%.");
     
